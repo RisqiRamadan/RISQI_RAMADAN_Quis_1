@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AccentColor">#E6DBC8</color>
+    <color name="Abu1">#302F2F</color>
+    <color name="Abu2">#69594e</color>
+    <color name="PrimaryColor">#F9EFDB</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Abu3">#C7B7A3</color>
+    <color name="Abu4">#B0A695</color>
+</resources>

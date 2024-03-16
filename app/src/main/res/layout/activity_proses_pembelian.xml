@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/AccentColor"
+    tools:context=".ProsesPembelian">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/PrimaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/akecil"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvSelamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:id="@+id/tvTransaksi"
+            android:fontFamily="@font/akecil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSelamat"
+            android:layout_alignParentStart="true"
+            android:text="Transaksi Hari ini :"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvMakasih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/PrimaryColor"
+        android:text="Terimakasih Telah Berbelanja Disini !!"
+        android:textSize="18sp"
+        android:layout_below="@id/tvTransaksi"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMakasih"
+        android:text="Share"
+        android:layout_gravity="center"
+        android:backgroundTint="#2D9596"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
